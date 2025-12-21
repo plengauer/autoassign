@@ -17,5 +17,4 @@ jobs:
       - uses: plengauer/autoassign@main # TODO pin to a version if needed
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }} # TODO token for GITHUB for the user to approve the PRs with (if a custom token is used that is not the built-in token, set permissions above)
-          user_to_assign: 'renovate[bot]' # TODO configure user
 ```
